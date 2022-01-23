@@ -1,0 +1,90 @@
+.post-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+}
+
+.post-form input {
+  height: 3rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.post-form textarea {
+  resize: vertical;
+  height: 15rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.post-form button {
+  width: 10vw;
+  height: 3rem;
+  background-color: blue;
+  border: solid 3px transparent;
+  border-radius: 3px;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  height: 100%;
+  width: 100%;
+  background-color: #dfd9d9;
+}
+
+header {
+  background-color: #07076b;
+  color: white;
+  font-size: 2rem;
+  height: 5rem;
+  width: 100vw;
+  padding: 1rem 5rem;
+}
+
+ul {
+  width: 100vw;
+  padding: 1rem 7rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li h1 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+ul li p {
+  font-family: san-serif;
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=main.css.map */

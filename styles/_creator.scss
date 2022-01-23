@@ -1,0 +1,38 @@
+.post-form {
+  //alignment
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  //dimensions
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+
+  input {
+    //dimension
+    height: 3rem;
+    //text
+    font-size: 2rem;
+    text-align: left;
+  }
+  textarea {
+    //dimension
+    resize: vertical;
+    height: 15rem;
+    //text
+    font-size: 2rem;
+    text-align: left;
+  }
+  //form submit button
+  button {
+    //dimensions
+    width: 10vw;
+    height: 3rem;
+    background-color: blue;
+    border: solid 3px transparent;
+    border-radius: 3px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

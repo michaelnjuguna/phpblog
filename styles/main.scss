@@ -1,0 +1,64 @@
+//import more scss
+@import "./creator";
+
+//to remove all styles
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  //font
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  //dimensions
+  height: 100%;
+  width: 100%;
+  //background
+  background-color: rgb(223, 217, 217);
+}
+//header
+header {
+  //background
+  background-color: rgb(7, 7, 107);
+  //font styles
+  color: white;
+  font-size: 2rem;
+  //dimensions
+  height: 5rem;
+  width: 100vw;
+  //paddings
+  padding: 1rem 5rem;
+}
+
+//blog-content
+ul {
+  //dimension
+  width: 100vw;
+  //padding
+  padding: 1rem 7rem;
+
+  //list items
+  li {
+    list-style: none;
+    h1 {
+      //font styles
+      font-family: serif;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    p {
+      //font styles
+      font-family: san-serif;
+      font-size: 1.6rem;
+    }
+  }
+}
